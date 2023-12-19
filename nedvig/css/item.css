@@ -1,0 +1,354 @@
+                        /* Merriweathe */
+                        @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+                        
+                        /*Open Sans*/
+                        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+                        
+                        /* css Homepage */
+                        body {
+                            height:100%;
+                            margin: 0;
+                            font-family: 'Open Sans', sans-serif;
+                            /* font-family: 'Merriweather', serif; */
+                        }
+                        
+                        .container {
+                            margin: 0px 166px;
+                        }
+                        
+                        .header {
+                            height: 100vh;
+                            background-repeat: no-repeat;
+                            background-size: cover;
+                        }
+                        /***************************************************************************** NAVIGATION *********************************************************************/
+                        
+                        .header-line {
+                            padding-top: 50px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+                        }
+                        
+                        .nav-item {
+                            color: black;
+                            text-decoration: none;
+                            font-weight: 400;
+                            font-size: 16px;
+                            margin-right: 25px;
+                            transition:0.4s;
+                        }
+                        
+                        .nav-item:hover {
+                            color: #003CFF;
+                            font-style: italic;
+                            transition:0.4s;
+                        }
+                        
+                        .button {
+                            background-color: #1C3988;
+                            color: white;
+                            text-decoration: none;
+                            padding: 14px 18px;
+                            font-weight: 400;
+                            border-radius: 10px;
+                            margin-right: 120px;
+                            transition:0.2s;
+                        }
+                        
+                        .button:hover {
+                            color: white;
+                            background-color: #6E8AE9;
+                            transition:0.2s;
+                        }
+
+
+/****************************** MAIN *****************************/
+.main-h1{
+    margin-top:5%;
+    font-family: 'Merriweather', serif;
+    font-weight:700;
+    font-size:52px;
+}
+
+
+
+
+
+/************************ CONTACTS **************************/
+
+.mainmain-contact-cont{
+    float:right;
+    margin-right:40px;
+    width:250px;
+    height:650px;
+
+}
+
+.contact-cont h1{
+    font-family: 'Merriweather', serif;
+    Font-size:27px;
+    font-weight:700; 
+}
+
+.contact-cont p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    font-weight:400;
+    margin-bottom:5px;
+}
+
+.contact input{
+    width:200px;
+    height:50px;
+    font-size:17px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:400;
+}
+
+.contact button{
+    background-color:none;
+    border-color:#003CFF;
+    font-family: 'Open Sans', sans-serif;
+    text-align:center;
+    font-weight: 700;
+    font-size:14px;
+    padding-left:55px;
+    padding-right:55px;
+    margin-top:20px;
+    padding-top:5px;
+    padding-bottom:5px;
+    color:#003CFF;
+    border-radius:3px;
+}
+
+                        .button_log {
+                            border:1px solid #1C3988;
+                            color: #1C3988;
+                            text-decoration: none;
+                            padding: 14px 18px;
+                            font-weight: 400;
+                            border-radius: 10px;
+                            margin-right: 120px;
+                            transition:0.2s;
+                        }
+
+                        .button_log:hover {
+                            color: #6E8AE9;
+                            border: 1px solid #6E8AE9;
+                            transition:0.2s;
+                        }
+
+
+.contact{
+    /* padding:20px; */
+    align-items: center;
+}
+
+.broker-cont{ 
+    /* padding: 20px; */
+    text-align: center;
+    background-color: #F3F3FA;
+     margin-top:110%;
+}
+
+.borker{
+    padding:20px;
+    
+}
+
+.broker img{
+    width: 126px;
+    height: 126px;
+    border-radius:100%;
+
+}
+
+.info-cont{
+    width:100%;
+    background-color:#F3F3FA;
+    /* margin-top:20%; */
+}
+
+.info{
+    /* padding:20px; */
+}
+
+
+
+/*********************** TEXT *********************/
+
+ 
+
+
+.mortgage-cont{
+    width:609px;
+    height:90px;
+    background-color:#F3F3FA;
+}
+
+.mortgage{
+    align-items:center;
+}
+
+.mortgage-p{
+    position:absolute;
+    font-family: 'Open Sans', sans-serif;
+    font-size:17px;
+    font-weight:400px;
+    margin-left:2%;
+    margin-top:1%;
+    
+}
+
+.mortgage-h1{
+    position:absolute;
+    font-family: 'Merriweather', serif;
+    font-size:22px;
+    font-weight:700;
+    margin-left:2%;
+    margin-top:3%;
+}
+
+.mortgage a{
+    margin-top:25px;
+    float:right;
+    margin-right:5%;
+    text-decoration: none;
+    background-color:#1C3988;
+    color:white;
+    padding:10px;
+    border-radius:5px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:700;
+}
+
+/*********************** CONTENT ***************************/
+.content-cont{
+    width:710px;
+    /* margin-top:3%; */
+}
+
+
+/**********************************  SPAM **********************/
+.spam_cont{
+    margin-top:3%;
+    background-color:#F3F3FA;
+    height:398px;
+    width:100%;
+}
+
+
+
+.spam-img-block{
+    margin-top: 100px;
+    margin-left:300px;
+    float:left;
+    padding-right:80px;
+}
+
+.spam-block-text{
+    padding-top:140px;
+    margin-left:50px;
+}
+
+.spam-h1{
+    font-family: 'Merriweather', serif;
+    font-weight:700;
+    font-size:33px; 
+}
+
+.spam-p{
+    font-size:21px;
+    font-weight:400;   
+}
+
+.spam-input{
+    width:260px;
+    height:40px;
+}
+
+.about_img1{
+    border-radius:100%;
+    width:200px;
+    height:200px;
+}
+
+.spam-btn{
+    background-color: none; /* Green */
+    border-color:#003CFF;
+    color: #003CFF;
+    padding: 7px 26px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-size:16px;
+    font-weight:700;
+    border-radius:2px;
+    transition:0.4s;
+}
+
+.spam-btn:hover{
+    border-color:#6E8AE9;
+    background:#6E8AE9;
+    color:white;
+    transition:0.4s;
+}
+
+.carousel-cont{
+    width:350px;
+    height:350px;
+}
+
+
+/**************************** FOOTER **************************/
+.footer-cont{
+    width:100%;
+    background-color:#1C3988;
+    height:191px;
+    
+    
+}
+
+.footer-logo{
+    position:absolute;
+    margin-top:5%;
+    margin-left:50%;
+}
+
+.footer-h1{
+    position:absolute;
+    margin-top:8%;
+    margin-left:45%;
+    font-family: 'Merriweather', serif;
+    color:white;
+    font-weight:700;
+}
+
+
+
+.about-line-cont{
+    margin-right:50px;
+    margin-top:2%;
+    margin-bottom: 2%;
+}
+
+.about-line{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-line h1{
+    font-family: 'Merriweather', serif;
+    font-size:22px;
+    font-weight:700;
+    margin-right:150px;
+}
+
+iframe{
+    margin-left:10%;
+    margin-top: 3%;
+}

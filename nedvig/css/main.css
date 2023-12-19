@@ -1,0 +1,252 @@
+/* Merriweathe */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+                        
+/*Open Sans*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+                        
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+                        
+.container {
+    margin: 0px 166px;
+}
+                        
+.header {
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+                        
+.header-line {
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+                        
+.nav-item {
+    color: black;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    margin-right: 25px;
+    transition:0.4s;
+}
+                        
+.nav-item:hover {
+    color: #003CFF;
+    font-style: italic;
+    transition:0.4s;
+}
+                        
+.button {
+    background-color: #1C3988;
+    color: white;
+    text-decoration: none;
+    padding: 14px 18px;
+    font-weight: 400;
+    border-radius: 10px;
+    margin-right: 120px;
+    transition:0.2s;
+}
+                        
+.button:hover {
+    color: white;
+    background-color: #6E8AE9;
+    transition:0.2s;
+}
+
+.button_log {
+    border:1px solid #1C3988;
+    color: #1C3988;
+    text-decoration: none;
+    padding: 14px 18px;
+    font-weight: 400;
+    border-radius: 10px;
+    margin-right: 120px;
+    transition:0.2s;
+}
+
+.button_log:hover {
+    color: #6E8AE9;
+    border: 1px solid #6E8AE9;
+    transition:0.2s;
+}
+                       
+                        
+.header-down {
+    position: relative;
+}
+                        
+.header-title {
+    font-family: 'Merriweather', serif;
+    font-size: 64px;
+    font-weight: 700;
+    width: 500px;
+    margin-top: 17%;
+    margin-left: -20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+                        
+.header-subtitle {
+    font-size: 21px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+                        
+.header-image {
+    position: relative;
+}
+                        
+.image-main {
+    position: absolute;
+    z-index: -10;
+    top: 30px;
+    left: 694px;
+    margin-top:-12%;
+}
+                        
+      
+.cont_about{
+    margin:149px;
+}
+
+.about_txt{
+    width:361px;
+    height:474px;
+    float:right;
+}
+
+.zag{
+font-family: 'Merriweather', serif;   
+font-weight:700;
+font-size: 52px;
+}
+
+.undr_zag{
+    font-family: 'Open Sans', sans-serif;
+    font-weight:400;
+    font-size:17px;
+}
+
+.about_img2{
+    border-radius:100%;
+    height:200px;
+    width:200px;
+}
+
+
+.cont_team{
+    margin:149px;
+    display:flex;
+    align-items: center;
+}
+
+.team_card{
+-webkit-box-shadow: 0px 0px 8px 1px rgba(34, 60, 80, 0.2);
+-moz-box-shadow: 0px 0px 8px 1px rgba(34, 60, 80, 0.2);
+box-shadow: 0px 0px 8px 1px rgba(34, 60, 80, 0.2);
+width:350px;
+height:378px;
+text-align:center;
+padding-top:48px;
+padding-left:75px;
+padding-right:75px;
+}
+
+.name{
+    font-family: 'Merriweather', serif; 
+    font-weight:700;
+    font-size:22px;
+    margin-top:26px;
+}
+
+.team_card2{
+    -webkit-box-shadow: 0px 0px 8px 1px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 0px 8px 1px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 0px 8px 1px rgba(34, 60, 80, 0.2);
+    width:350px;
+    height:378px;
+    text-align:center;
+    padding-top:48px;
+    padding-left:75px;
+    padding-right:75px;
+    margin-left:35px;
+    }
+    
+.name2{
+    font-family: 'Merriweather', serif; 
+    font-weight:700;
+    font-size:22px;
+    margin-top:26px;
+}
+
+
+.udr_name{
+    font-family: 'Open Sans', sans-serif;
+    font-weight:400;
+    font-size:17px;
+    margin-bottom:48px;
+}
+
+.about_team{
+    width:352px;
+    height:184px;
+    float:right;
+    margin-left:35px;
+}
+
+
+.up_me{
+    font-weight:700;
+    font-family: 'Merriweather', serif; 
+    font-size:50px;
+}
+
+.undr_me{
+    font-family: 'Open Sans', sans-serif;
+    font-weight:400;
+    font-size:22;
+}
+
+.about_img1{
+    border-radius:100%;
+    width:200px;
+    height:200px;
+}
+
+/**************************** FOOTER **************************/
+.footer-cont{
+    width:100%;
+    background-color:#1C3988;
+    height:191px;
+    margin-top:-1%;
+}
+
+.footer-logo{
+    position:absolute;
+    margin-top:5%;
+    margin-left:50%;
+}
+
+.footer-h1{
+    position:absolute;
+    margin-top:8%;
+    margin-left:45%;
+    font-family: 'Merriweather', serif;
+    color:white;
+    font-weight:700;
+}
+
+@media screen and (max-width: 1320px){
+    .header{
+        width:100%;
+    }
+}
+
